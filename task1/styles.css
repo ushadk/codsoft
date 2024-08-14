@@ -1,0 +1,358 @@
+/* General Styling */
+body {
+    font-family: 'Lora', serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#f8f4f0
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #5a3e2b;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #d3a267;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 70vh;
+    background: url('herosec.png') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:#fffefe;
+    /* font-weight: 700; */
+}
+
+.hero h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #d3a267;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #b5834c;
+}
+
+/* About Section */
+#about {
+    padding: 2em;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #5a3e2b;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.about-content div {
+    width: 50%;
+    padding-left: 2em;
+}
+
+.about-content p {
+    margin-bottom: 1em;
+    font-size:1.5rem;
+}
+
+/* Collections Section */
+#collections {
+    background-color: #f8f4f0;
+    padding: 2em;
+}
+
+#collections h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #5a3e2b;
+}
+
+.collection {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.collection img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+.collection h3 {
+    font-size: 1.8em;
+    margin-top: 1em;
+    color: #5a3e2b;
+}
+
+.collection p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.collection .cta-button {
+    margin-top: 1em;
+}
+
+/* Craftsmanship Section */
+#craftsmanship {
+    padding: 2em;
+    background-color: #fff;
+    text-align: center;
+}
+
+#craftsmanship h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #5a3e2b;
+}
+
+#craftsmanship p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    color: #555;
+}
+
+#craftsmanship img {
+    max-width: 45%;
+    border-radius: 10px;
+}
+
+/* Special Offers Section */
+#special-offers {
+    background-color: #f8f4f0;
+    padding: 2em;
+}
+
+#special-offers h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #5a3e2b;
+}
+
+.offer, .event {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.offer h3, .event h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    color: #5a3e2b;
+}
+
+.offer p, .event p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.offer .cta-button, .event .cta-button {
+    margin-top: 1em;
+}
+
+/* Shop Section */
+#shop {
+    background-color: #fff;
+    padding: 2em;
+    
+}
+
+#shop h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #5a3e2b;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.product img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 1.8em;
+    margin-top: 1em;
+    color: #5a3e2b;
+}
+
+.product p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.product .cta-button {
+    margin-top: 1em;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2em;
+    background-color: #f8f4f0;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #5a3e2b;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 1.1em;
+}
+
+.contact-info p {
+    margin: 0.5em 0;
+}
+
+/* form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #5a3e2b;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 0.8em;
+    background-color: #d3a267;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #b5834c;
+}
+ */
+/* Footer */
+footer {
+    background-color: #5a3e2b;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer ul li a {
+    color: #d3a267;
+    text-decoration: none;
+}
+
+footer .social-media {
+    margin-top: 1em;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 100%;
+    max-width: 40px;
+    border-radius: 10px;
+}
